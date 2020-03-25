@@ -1,0 +1,28 @@
+extends ../layout
+
+block content
+    h1 Actualizar Estudiante
+    nav
+        ul
+            li
+                a(href="/estudiante/nuevo") Registrar Estudiante
+            li 
+                a(href="/estudiante/buscar") Buscar Estudiante
+            li
+                a(href="/estudiante/eliminar") Eliminar Estudiante
+            li
+                a(href="/estudiante/actualizar") Actualizar Estudiante
+
+    p
+        table(border ="1")
+            thead
+                td ID
+                td CURP
+                td Fecha de Nacimiento
+                td Estatus
+                td Estado Civil
+                td Datos Medicos
+                td Datos Academicos
+                td Datos Tutor
+                td Datos Persona
+            tbody(id="tabla")

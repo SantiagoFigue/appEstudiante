@@ -1,0 +1,17 @@
+extends ../layout
+
+block content
+    h1 Eliminar Estudiante
+    nav
+        ul
+            li
+                a(href="/estudiante/nuevo") Registrar Estudiante
+            li 
+                a(href="/estudiante/buscar") Buscar Estudiante
+            li
+                a(href="/estudiante/eliminar") Eliminar Estudiante
+            li
+                a(href="/estudiante/actualizar") Actualizar Estudiante
+
+    input#datElim(type="text", name="datElim", placeholder="Escriba el nombre del alumno")
+    button(id="eliminar") Eliminar
